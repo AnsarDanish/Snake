@@ -1,0 +1,46 @@
+*{
+    margin : 0;
+    padding: 0;
+
+}
+
+.con{
+background-color: black;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.score
+{
+    color: white;
+}
+
+.boardd{
+    display: grid;
+    grid-template-columns: repeat(20 ,20px);
+    grid-template-rows: repeat(20,20px);
+    gap: 1px;
+    width: max-content;
+}
+
+.cell
+{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.cellfood {
+    background-color: red;
+}
+
+.cellsnake  {
+    background-color: green;
+}
+
+.cellsnakeHead{
+    background-color: brown;
+}
